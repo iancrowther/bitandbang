@@ -1,6 +1,6 @@
 {
-  "name": "iancrowther",
-  "version": "1.0.1",
+  "name": "@iancrowther/card",
+  "version": "1.0.2",
   "description": "An npm card for Ian Crowther (@iancrowther)",
   "main": "/bin/card.js",
   "bin": {

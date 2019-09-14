@@ -23,7 +23,7 @@ const data = {
   twitter: chalk.gray('https://twitter.com/iancrowther'),
   npm: chalk.gray('https://npmjs.com/~iancrowther'),
   web: chalk.gray('https://iancrowther.co.uk'),
-  npx: chalk.white('npx iancrowther'),
+  npx: chalk.white('npx @iancrowther/card'),
 
   labelSkills: chalk.white.bold('     Skills:'),
   labelTwitter: chalk.white.bold('    Twitter:'),

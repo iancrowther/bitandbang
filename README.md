@@ -2,5 +2,5 @@
 
 ## npm
 ```
-npx iancrowther
+npx @iancrowther/card
 ```

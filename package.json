@@ -1,16 +1,16 @@
 {
   "name": "@iancrowther/card",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An npm card for Ian Crowther (@iancrowther)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "iancrowther": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iancrowther/npm-card.git"
+    "url": "git+https://github.com/iancrowther/card.git"
   },
-  "homepage": "https://github.com/iancrowther/npm-card",
+  "homepage": "https://github.com/iancrowther/card",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -38,7 +38,7 @@
     "standard": "^14.2.0"
   },
   "bugs": {
-    "url": "https://github.com/iancrowther/npm-card/issues"
+    "url": "https://github.com/iancrowther/card/issues"
   },
   "dependencies": {},
   "publishConfig": {

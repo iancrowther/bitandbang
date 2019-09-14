@@ -1,16 +1,16 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "iancrowther",
+  "version": "1.0.1",
+  "description": "An npm card for Ian Crowther (@iancrowther)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/iancrowther/npm-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://github.com/iancrowther/npm-card",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,22 +26,22 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Ian Crowther <ian@iancrowther.co.uk> (https://iancrowther.co.uk)",
   "license": "MIT",
   "files": [
     "bin/card.js",
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^14.2.0"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/iancrowther/npm-card/issues"
   },
   "dependencies": {},
   "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
